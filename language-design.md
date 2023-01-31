@@ -43,7 +43,7 @@ you know a poorly designed language? What are the symptoms?
 
 **Response**
 
-> How intuitive it is. It should be intuitive whether, say, "gray(100)" is white or black - and what gray(100) means. As we see in the grayscale article, names/wording are an important thing to take under consideration while building an intuitive language or API. The Bloch article talks about the importance of naming too. 
+> How intuitive it is. It should be intuitive whether, say, "gray(100)" is white or black - and what gray(100) means. As we see in the grayscale article, names/wording are an important thing to take under consideration while building an intuitive language or API. The Bloch article talks about the importance of naming too. A user/reader should be able to read code written in a well designed language, brought on by clarity in the grammar and vocabulary. 
 
 > "I think that whenever you make a product design simpler there’s a potential danger of removing features that experts need” [Bloch, 2006]. A well designed language balances and tries to achieve both. It is, obviously, important to have functionality but you can still make things simpler by not having a lot of jargon, weird syntax, and keeping in mind what the user wants(by constantly getting feedback). 
 
@@ -53,7 +53,19 @@ How might the themes of _Growing a Language_ relate to ideas from the Fowler rea
 
 **Response**
 
-TODO
+Both, the Steele reading and Fowler reading essentially talk about language building, and the things to keep in mind when doing so. Fowler explains DSLs, different types, blurred lines, pros and cons, problems that developers may run into while building a DSL. Steele dives into the more nitty gritties of the language building aspect, that is touched up on in the Fowler reading.
+
+> An important theme in the Steele reading is about getting a lot of other users. "“More users find more bugs,”
+and backs him up with tales from this example of building a program in the bazaar style.
+As for the role of the programmer in charge, Eric Raymond says that it is fine to come
+up with good thoughts, but much better to know them when you see them in the work of
+other persons." [Steele 1998] This relates to Fowler, who speaks of constantly getting feedback, and not trying to do everything on your own without any outside responses. 
+
+> The Fowler reading talks about the Ghetto problem, when everything is inhouse. That might make it hard over time to keep building on the language itself(and of course, systems built on this language). This touches up on what Steele talks about - designing a language that can be grown on, built on. Fowler also talks about creating a DSL in which the user can easily tell what the sentences mean as there should be clarity. This is also important if you want to have a language that can be grown on. Fowler and Steele go about different ways of talking about the topic but I think the two would essentially agree that keeping things clear and intuitive.
+
+> Both also talk about building a strong basis, which is very important when making a language.
+
+While the Steele and Fowler readings are about creating languages, they still are very different articles with very different themes. Fowler talks about the pros of using the domain specific jargon, getting feedback from the users/domain experts/target audience, abstractions, the costs of DSLs - both internal and external, some problems like the cacaphony and ghetto problems, what an ideal DSL could look like, and some other basics of DSLs like their types, and what even constitutes a DSL. Steeles on the other hand builds an analogy with natural languages and some things to keep in mind when making a language.  
 
 **Question**
 

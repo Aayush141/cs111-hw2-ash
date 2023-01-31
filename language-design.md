@@ -17,7 +17,18 @@ For each quote, describe what it was about the quote that led you pick it.
 
 **Response**
 
----
+"I should not design a small language, and I should not design
+a large one. I need to design a language that can grow" [Steele, 1998]
+
+I found this very interesting. It is something I will remember for the future, as it feels like good advice.
+I also thought how the author explained this via analogies with Natural Languages, and via the examples and trichotomy between Pascal,PL/I and Fortran - was really cool too.
+I wonder though, how relevant it still is today. One of the reasons why we need languages that can scale up is to match progress, but is there really that much progress being made in Programming Languages today? 
+
+"He said that their usability testing showed that simply finding natural-language replacements for some of the more abstruse syntax went a long way." 
+
+Here, when the author is talking about evidence based PLs, I feel like they overlook programmers that do not speak English - or whatever natural language replacement is being used. Sure, it will make things easier for 25% of the population - but having to write programs in a more verbose nat-lang might make it harder for the 75% of the world that does not speak English. While I do agree with the points in this paper, I felt it overlooked a major component/population. 
+
+"
 
 **Question**
 
@@ -26,7 +37,7 @@ you know a poorly designed language? What are the symptoms?
 
 **Response**
 
----
+
 
 **Question**
 
@@ -50,7 +61,7 @@ What does the post on grayscale tell us about the process of API design?
 
 **Response**
 
----
+There is a lot of thought that goes into even the "little details" of designing an API. Or at least what we think of us as just "little detals", but can be important in making sure that using it is intuitive and doesn't require re-learning by looking up online each time what, say, 0 is and what 100 is. It reminds of this Vox piece I had seen on doorways. Doorway design may seem pretty straightfoward and banal - but there are a lot of important things to take under consideration. When opening a door, we often have to check whether we have to push or pull to open it. But a well designed door does not need to tell you, as it is intuitive. On the flip side, a poorly designed door will have you consistantly doing the exact opposite of what is required to open. 
 
 **Question**
 

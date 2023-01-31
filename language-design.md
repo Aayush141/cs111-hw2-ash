@@ -43,9 +43,9 @@ you know a poorly designed language? What are the symptoms?
 
 **Response**
 
-> Article 2.
+> How intuitive it is. It should be intuitive whether, say, "gray(100)" is white or black - and what gray(100) means. As we see in the grayscale article, names/wording are an important thing to take under consideration while building an intuitive language or API. The Bloch article talks about the importance of naming too. 
 
-> How intuitive it is. It should be intuitive whether, say, "gray(100)" is white or black - and what gray(100) means. As we see in the grayscale article, names/wording are an important thing to take under consideration while building an intuitive language or API. 
+> "I think that whenever you make a product design simpler there’s a potential danger of removing features that experts need” [Bloch, 2006]. A well designed language balances and tries to achieve both. It is, obviously, important to have functionality but you can still make things simpler by not having a lot of jargon, weird syntax, and keeping in mind what the user wants(by constantly getting feedback). 
 
 **Question**
 
@@ -53,7 +53,7 @@ How might the themes of _Growing a Language_ relate to ideas from the Fowler rea
 
 **Response**
 
----
+TODO
 
 **Question**
 
